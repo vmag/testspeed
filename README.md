@@ -14,7 +14,9 @@ Clone the repo, `git clone https://github.com/ambernetas/testspeed.git`
 Output
 -----------
 
-------------Test results---------------
+Output example from US server:
+
+------------Test results ---------------
 
 Download speed from I3D NL : (11.3MB/s) (4.69MB/s)
 
