@@ -1,4 +1,4 @@
-Test speed from differrent DC
+Test network speed from different DC
 =========
 
 git clone https://github.com/ambernetas/testspeed.git
