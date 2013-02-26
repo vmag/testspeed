@@ -30,7 +30,7 @@ fdcservcz[$i]="`wget http://lg.zlin.fdcservers.net/100MBtest.zip -O /dev/null 2>
 echo "Testing FDCServers Ams, iteration #"$((i+1))
 fdcservams[$i]="`wget http://lg.amsterdam.fdcservers.net/100MBtest.zip -O /dev/null 2>&1 | grep '\([0-9.]\+ [KMG]B/s\)' | awk '{print $3 $4}'`"
 echo "Testing Cachefly CDN, iteration #"$((i+1))
-cachefly[$i]="`wget http://cachefly.cachefly.net/100mb.bin 2>&1 | grep '\([0-9.]\+ [KMG]B/s\)' | awk '{print $3 $4}'`"
+cachefly[$i]="`wget http://cachefly.cachefly.net/100mb.bin -O /dev/null 2>&1 | grep '\([0-9.]\+ [KMG]B/s\)' | awk '{print $3 $4}'`"
 echo "Testing Softlayer Dallas, iteration #"$((i+1))
 softdallas[$i]="`wget http://speedtest.dal05.softlayer.com/downloads/test100.zip -O /dev/null 2>&1 | grep '\([0-9.]\+ [KMG]B/s\)' | awk '{print $3 $4}'`"
 echo "Testing Softlayer Seattle, iteration #"$((i+1))
