@@ -67,6 +67,9 @@ echo "Testing Quadranet LA, iteration #"$((i+1))
 quadranetla[$i]="`wget http://www.quadranet.com/speedtests/100mb.bin -O /dev/null 2>&1 | grep '\([0-9.]\+ [KMG]B/s\)' | awk '{print $3 $4}'`"
 echo "Testing Iweb Canada, iteration #"$((i+1))
 iweb[$i]="`wget http://test-bgp.iweb.com/100mbtest.bin -O /dev/null 2>&1 | grep '\([0-9.]\+ [KMG]B/s\)' | awk '{print $3 $4}'`"
+echo "Testing 1000Mbps, iteration #"$((i+1))
+mbps[$i]="`wget http://mirror.1000mbps.com/100mb.bin -O /dev/null 2>&1 | grep '\([0-9.]\+ [KMG]B/s\)' | awk '{print $3 $4}'`"
+
 
 
 echo "---------------Test #"$((i+1)) "completed------------------------------"
@@ -107,4 +110,5 @@ echo "Download speed from Choopa Chicago :"  ${choopa[@]}
 echo "Download speed from Netdepot Atlanta :"  ${netdepotatl[@]}
 echo "Download speed from Quadranet LA :"  ${quadranetla[@]}
 echo "Download speed from Iweb Canada :"  ${iweb[@]}
+echo "Download speed from 1000Mbps NL :"  ${mbps[@]}
 } 2>&1 | tee speedtest.log
