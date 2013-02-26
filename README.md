@@ -1,9 +1,16 @@
 Test network speed from different DC
 =========
 
-git clone https://github.com/ambernetas/testspeed.git
+Quick Start
+-----------
 
-cd testspeed/
+Clone the repo, `git clone https://github.com/ambernetas/testspeed.git`
 
-bash speedtest.sh
+`cd testspeed/`
+
+`bash speedtest.sh`
+
+
+Output
+-----------
 
