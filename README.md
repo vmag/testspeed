@@ -16,9 +16,7 @@ Output
 
 ------------Test results---------------
 Download speed from I3D NL : (11.3MB/s) (4.69MB/s)
-
 Download speed from Nforce NL : (6.69MB/s) (4.79MB/s)
-
 Download speed from Serverius NL : (18.3MB/s) (18.6MB/s)
 Download speed from Swiftway NL : (13.9MB/s) (13.5MB/s)
 Download speed from Leaseweb NL : (9.01MB/s) (8.92MB/s)
