@@ -104,7 +104,7 @@ echo "Download speed from Incero Dallas :"  ${incero[@]}
 echo "Download speed from Gigenet Chicago:"  ${gigenet[@]}
 echo "Download speed from Burstnet Scranton :"  ${burstnets[@]}
 echo "Download speed from Singlehop Chicago :"  ${singlehop[@]}
-echo "Download speed from Secured Servers Phoenix :"  ${ss[@]}choopa
+echo "Download speed from Secured Servers Phoenix :"  ${ss[@]}
 echo "Download speed from WholeSaleInternet Kansas :"  ${wsi[@]}
 echo "Download speed from Choopa Chicago :"  ${choopa[@]}
 echo "Download speed from Netdepot Atlanta :"  ${netdepotatl[@]}
