@@ -81,3 +81,8 @@ Download speed from Netdepot Atlanta : (10.4MB/s) (10.8MB/s)
 Download speed from Quadranet LA : (14.8MB/s) (13.5MB/s)
 
 Download speed from Iweb Canada : (59.8MB/s) (61.7MB/s)
+
+
+Thanks to
+------------------
+Arnie21 from WHT.
